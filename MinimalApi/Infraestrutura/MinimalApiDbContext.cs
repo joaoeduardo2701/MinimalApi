@@ -7,6 +7,7 @@ namespace MinimalApi.Infraestrutura
     {
         private readonly IConfiguration _configuracaoAppSettings;
         public DbSet<Administrador> Administradores { get; set; }
+        public DbSet<Veiculo> Veiculos { get; set; }
 
         public MinimalApiDbContext(IConfiguration configuracaoAppSettings)
         {
