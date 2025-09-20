@@ -2,7 +2,6 @@
 using MinimalApi.Dominio.Entidades;
 using MinimalApi.Dominio.Interfaces;
 using MinimalApi.Infraestrutura;
-using System.Linq;
 
 namespace MinimalApi.Dominio.Servicos
 {
