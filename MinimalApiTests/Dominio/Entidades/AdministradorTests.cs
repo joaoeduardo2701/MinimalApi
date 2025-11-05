@@ -1,7 +1,7 @@
 ﻿
 using MinimalApi.Dominio.Entidades;
 
-namespace MinimalApiTests.Dominio
+namespace MinimalApiTests.Dominio.Entidades
 {
     [TestClass]
     public class AdministradorTests
@@ -20,7 +20,7 @@ namespace MinimalApiTests.Dominio
             adm.Senha = "senha123";
             adm.Perfil = "Admin";
 
-            // Assert1
+            // Assert
 
             Assert.AreEqual(1, adm.Id);
             Assert.AreEqual("teste@teste.com", adm.Email);

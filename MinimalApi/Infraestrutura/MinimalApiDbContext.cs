@@ -14,6 +14,10 @@ namespace MinimalApi.Infraestrutura
             _configuracaoAppSettings = configuracaoAppSettings;
         }
 
+        public MinimalApiDbContext()
+        {
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Administrador>().HasData(
